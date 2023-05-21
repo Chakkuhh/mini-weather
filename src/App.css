@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+  overflow: hidden !important;
+}
+.home-container{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(thunderbolt.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.main-container{
+  display: flex;
+  width: 90%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  width: 400px;
+  height: 300px;
+  padding: 2em;
+  border-radius: 12px;
+  background-color: rgb(0, 0, 0,0.272);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%) ;
+  border: 0.4px solid rgb(255, 255, 255,0.32)
+}
+h1{
+  font-size: 2rem;
+  font-weight: 900;
+  color: #fff;
+
+}
+h6{
+  color: #fff;
+  font-size: 1rem;
+}
+@media screen and(max-width:960px){
+  
+  .main-container{
+    display: flex;
+    width: 95%;
+   margin: auto;
+  }
+  .card{
+    width: 400px;
+    height: 300px;
+    padding: 2em;
+    border-radius: 12px;
+    background-color: rgb(0, 0, 0,0.272);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%) ;
+    border: 0.4px solid rgb(255, 255, 255,0.32)
+  }
+  h1{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #fff;
+  
+  }
+  h6{
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+}
